@@ -14,3 +14,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "entomologo"
 include ':app'
+apply {
+    file("jacoco.gradle")
+}
